@@ -1,0 +1,45 @@
+<view>
+  <ocr
+    uploadText="上传图片"
+    recognizeText="进行识别"
+    mode="bizLicense"
+    imgUrl="https://10.url.cn/eth/ajNVdqHZLLBn1TC6loURIX2GB5GB36NBNZtycXDXKGARFHnJwhHD8URMvyibLIRBTJrdcONEsVHc/"
+    bindfinish="handleFinish"
+  />
+  <view class="weui-cells weui-cells_after-title form-container">
+    <form>
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">注册号</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" placeholder="注册号" value="{{registerId}}"/>
+        </view>
+      </view>
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">公司名称</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" placeholder="公司名称" value="{{name}}"/>
+        </view>
+      </view>
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">公司地址</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" placeholder="公司地址" value="{{addr}}"/>
+        </view>
+      </view>
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">营业期限</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" placeholder="营业期限" value="{{period}}"/>
+        </view>
+      </view>
+    </form>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<view>
+  <ocr
+    uploadText="上传图片"
+    recognizeText="进行识别"
+    mode="plate"
+    imgUrl="https://10.url.cn/eth/ajNVdqHZLLBn1TC6loURIX2GB5GB36NBNZtycXDXKGARFHnJwhHD8URMvyibLIRBTJrdcONEsVHc/"
+    bindfinish="handleFinish"
+  />
+  <view class="weui-cells weui-cells_after-title form-container">
+    <form>
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">车牌号</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" placeholder="车牌号" value="{{plate}}"/>
+        </view>
+      </view>
+    </form>
+  </view>
+</view>

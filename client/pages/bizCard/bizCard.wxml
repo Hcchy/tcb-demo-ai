@@ -1,0 +1,14 @@
+<view>
+  <ocr
+    uploadText="上传图片"
+    recognizeText="进行识别"
+    mode="bizCard"
+    imgUrl="https://10.url.cn/eth/ajNVdqHZLLBn1TC6loURIX2GB5GB36NBNZtycXDXKGARFHnJwhHD8URMvyibLIRBTJrdcONEsVHc/"
+    bindfinish="handleFinish"
+  />
+  <view class="weui-cells weui-cells_after-title form-container">
+    <form>
+      <textarea placeholder="信息" value="{{text}}" />
+    </form>
+  </view>
+</view>

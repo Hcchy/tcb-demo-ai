@@ -1,0 +1,19 @@
+<view>
+    <img-detect
+        uploadText="上传图片"
+        recognizeText="进行识别"
+        mode="pornDetect"
+        imgUrl="https://10.url.cn/eth/ajNVdqHZLLBn1TC6loURIX2GB5GB36NBNZtycXDXKGARFHnJwhHD8URMvyibLIRBTJrdcONEsVHc/"
+        bindfinish="handleFinish"
+    />
+    <view class="weui-cells weui-cells_after-title form-container">
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">黄图概率</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="0%" value="{{confidence}}"/>
+            </view>
+        </view>
+    </view>
+</view>

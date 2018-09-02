@@ -1,0 +1,25 @@
+<face-fuse>
+  <view wx:if="{{resultImgUrl}}" class="image-container">
+    <div class="resultImage" style="background-image: url({{resultImgUrl}})"/>
+  </view>
+  <view wx:else class="image-container {{hideTemplate ? 'hideTemplate' : ''}}">
+    <div class="customImage" style="background-image: url({{customImgUrl}})"/>
+    <div class="templateImage" style="background-image: url({{templateImgUrl}})"/>
+  </view>
+  <canvas id="canvas" />
+  <view class="button-container">
+      <button
+        type="primary"
+        bindtap="handleUploadTap"
+      >
+        {{uploadText}}
+      </button>
+      <button
+        type="primary"
+        disabled="{{!hasUploaded}}"
+        bindtap="handleRecognizeTap"
+      >
+        {{recognizeText}}
+      </button>
+  </view>
+</face-fuse>

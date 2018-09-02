@@ -1,0 +1,23 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/idCard/idCard",
+    "pages/handWriting/handWriting",
+    "pages/bizLicense/bizLicense",
+    "pages/drivingLicence/drivingLicence",
+    "pages/plate/plate",
+    "pages/general/general",
+    "pages/bankCard/bankCard",
+    "pages/bizCard/bizCard",
+    "pages/tagDetect/tagDetect",
+    "pages/pornDetect/pornDetect",
+    "pages/faceFuse/faceFuse"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "cloud": true
+}

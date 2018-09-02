@@ -1,0 +1,25 @@
+.image-container {
+  padding: 30rpx;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  padding-bottom: 75%;
+  height: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+button {
+  display: inline-block;
+}
+
+button:first-child {
+  margin-right: 1em;
+}
+
+.button-container {
+  text-align: center;
+}
